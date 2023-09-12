@@ -1,0 +1,69 @@
+body{
+    background-image: url(batman\ fight.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-nav{
+    margin-left:auto;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.nav-item a{
+    color: black;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+}
+
+.nav-item a:hover{
+    color: rgb(255,5,30);
+}
+
+.navbar-toggler-icon{
+    color: black;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    outline: none;
+}
+  
+/*-----cerita---*/
+.hero img{
+    width:700px;
+}
+
+img:hover{
+    width: 50%;
+    transition: 1.5s ease;
+}
+
+.hero{
+    color: white;
+}
+
+.hero p{
+    color: #F94C10;
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.hero h2{
+    text-align: center;
+}

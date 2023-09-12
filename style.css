@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,#0baf45,orange);
+    padding: 0 !important;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-nav{
+    margin-left:auto;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+
+.navbar-nav li a{
+    color: black !important;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+}
+
+.navbar-toggler-icon{
+    color: black;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+/*-------banner section-----*/
+#banner{
+    background-image: linear-gradient(to right,#0baf45,orange);
+    color: black;
+    padding-top: 5%;
+}
+
+.judul{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#banner p{
+    margin-top: 15px;
+}
+
+.img-fluid{
+    margin-bottom: 20px;
+}
+
+/*------Social Media-------*/
+#social-media{
+    background: rgb(149, 149, 149);
+    padding: 100px 0;
+}
+
+#social-media p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.social-icons img{
+    width: 40px;
+    transition: 0,5s;
+    margin: 0 10px;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}

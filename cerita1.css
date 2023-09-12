@@ -1,0 +1,87 @@
+body{
+    background-image: url('Batman\ Wallpapers\ -\ Wallpaper\ Sun.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,#0baf45,orange);
+    padding: 0;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-nav{
+    margin-left:auto;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: black;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+}
+
+.navbar-toggler-icon{
+    color: black;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    outline: none;
+}
+
+.nav-item a{
+    color: black;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+}
+
+.nav-item a:hover{
+    color: rgb(255, 5, 30);
+}
+
+/*----cerita-----*/
+.center-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.col-my-6{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+} 
+
+img{
+    width: 70%;
+    margin-top: 30px;
+}
+
+img:hover{
+    width: 80%;
+    transition: 1.5s ease;
+    
+
+}
